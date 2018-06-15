@@ -1,0 +1,104 @@
+html {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: grey;
+  }
+
+a {
+    text-decoration: none;
+    color: grey;
+  }
+
+.Colmar {
+    font-weight: 700;
+    color: darkslategrey;
+    text-transform: uppercase;
+  }
+.Academy {
+    font-weight: 400;
+    color: grey;
+    text-transform: uppercase;
+}
+
+/*
+  @media only screen and (max-width: 760px) {
+    .content .mobile {
+      top: 2.5625rem;
+    }
+  }
+*/
+  /* Header */
+
+header {
+    width: 100%;
+    border: 1px solid red;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    line-height: 4rem;
+  }
+
+header a {
+    display: flex;
+  }
+
+header .logo {
+    flex: 1;
+    
+  }
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    padding-right: 2rem;
+  }   
+nav li {
+    padding-left: 1rem;
+  } 
+nav a {
+    vertical-align: bottom;
+    font-size: 1rem;
+    color: #4a4a4a;
+  }
+
+header .desktop .icon {
+    width: 2rem;
+    height: auto;
+    padding-left: 1.5rem;
+    border: 1px solid red;
+  }
+ 
+header .mobile {
+    display: none;
+  }
+ 
+@media only screen and (max-width: 760px) {
+    header .desktop {
+      display: none;
+    }
+  
+    header .mobile {
+      display: flex;
+      width: 100%;     
+    }
+
+header .mobile .icon {
+        height: 2rem;
+        width: 2rem;
+        border: 1px solid blue;
+        margin: 16px 0px;
+      }
+header .mobile ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+    }
+header .mobile .button {
+      padding: .1875rem .5rem;
+    }
+    
+  }
